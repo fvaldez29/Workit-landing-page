@@ -1,0 +1,170 @@
+:root{
+    --main-color: #24053E;
+    --green: #44FFA1;
+    --light-purple: #584D62;
+    --pearl: #FCF8FF;
+    --white: #ffffff;
+}
+
+
+@font-face {
+    font-family: "manrope";
+    src: url(../assets/fonts/manrope/static/Manrope-Regular.ttf);
+
+    font-family: "fraunces";
+    src: url(../assets/fonts/fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* COMMON SETUP */
+
+
+a{
+    font-family: "manrope";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.18px;
+    text-decoration: none;
+    color: var(--white);
+}
+
+h1{
+    font-family: "fraunces";
+    font-size: 80px;
+    color: #ffffff;
+    line-height: 80px;
+    text-align: center;
+    font-weight: 600;
+}
+
+
+/* HEADER CONTAINER */
+
+.header{
+    position: relative;
+    width: 100%;
+    height: 730px;
+    padding: 57px 170px;
+    background-color: var(--main-color);
+    background-image: url(../assets/images/bg-pattern-2.svg);
+    background-repeat: no-repeat;
+    background-position: 104% 80%;
+
+}
+
+.icon__pattern-one{
+    display: block;
+    position: absolute;
+}
+
+.icon__pattern-one{
+    top: 100px;
+    left: -160px;
+}
+
+.icon__pattern-two{
+    display: none;
+    bottom: 100px;
+    right: -90px;
+}
+
+.container__radius{
+    border-bottom-left-radius: 100% 15%;
+    border-bottom-right-radius: 100% 15%;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.nav__link:hover{
+    color: var(--green);
+}
+
+.elem--underline{
+    line-height: 32px;
+    text-decoration: underline 3px #44FFA1;
+    border-radius: 2px;
+    text-underline-offset: 10px;
+}
+
+.title__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 63px;
+}
+
+.button{
+    width: 161px;
+    height: 61px;
+    font-family: 'manrope';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: -0.18px;
+    border: none;
+    background-color: var(--green);
+    margin-top: 50px;
+    color: var(--main-color);
+}
+
+.button-state-hover:hover{
+    border: 2px solid var(--green);
+    color: var(--white);
+    background-color: var(--main-color);
+}
+
+.phone__container{
+    margin-top: 50px;
+    width: 715px;
+    height: 427px;
+}
+
+.phone__image{
+    width: 730px;
+}
+
+/* BODY CONTAINER */
+
+.container__main{
+    display: grid;
+    place-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    height: 750px;
+    background: var(--pearl);
+    padding: 0 300px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card__number-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 56px;
+    width: 56px;
+    border: 1px solid var(--light-purple);
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+.card__number{
+    font-family: 'fraunces';
+    font-size: 24px;
+}
