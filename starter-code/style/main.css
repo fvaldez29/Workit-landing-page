@@ -116,6 +116,7 @@ h1{
     background-color: var(--green);
     margin-top: 50px;
     color: var(--main-color);
+    
 }
 
 .button-state-hover:hover{
@@ -143,7 +144,7 @@ h1{
     width: 100%;
     height: 750px;
     background: var(--pearl);
-    padding: 0 300px;
+    padding: 0 320px;
 }
 
 .card{
@@ -151,6 +152,7 @@ h1{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 22px;
 }
 
 .card__number-container{
@@ -167,4 +169,116 @@ h1{
 .card__number{
     font-family: 'fraunces';
     font-size: 24px;
+    font-weight: 600;
 }
+
+.card__title {
+    font-size: 32px;
+    font-family: 'fraunces';
+    text-align: center;
+    color: var(--main-color);
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.card__desc{
+    font-size: 18px;
+    font-family: 'manrope';
+    line-height: 32px;
+    text-align: center;
+    color: var(--light-purple);
+}
+
+/* END TABLE */
+
+
+/* GRAHAM SECTION */
+.graham__container{
+    position: relative;
+    display: grid;
+    place-content: center;
+    width: 100%;
+    height: 900px;
+    background-color: var(--white);
+}
+
+.graham__box-img{
+    position: absolute;
+    width: 477px;
+    left: 180px;
+    bottom: 350px;
+    
+}
+
+.graham__box-img img{
+    width: 100%;
+    z-index: -15;
+}
+
+.btn__green{
+    width: 190px;
+}
+
+.btn__green:hover{
+    border: 2px solid var(--green);
+    background-color: var(--main-color);
+    color: var(--green);
+}
+
+.card__container{
+    width: 713px;
+    height: 413px;
+    background: var(--main-color);
+    padding: 50px;
+    z-index: 12;
+}
+
+.card__title-hero{
+    color: var(--white);
+    text-align: left;
+    font-size: 56px;
+}
+
+.graham__desc{
+    font-family: 'fraunces';
+    color: var(--white);
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 400;
+}
+
+.icon__pattern-three{
+    position: absolute;
+    right: 33%;
+    z-index: 23;
+    top: 56.4%;
+}
+
+/* GRAHAM SECTION END */
+
+/* FOOTER */
+
+.footer{
+    position: relative;
+    display: grid;
+    justify-content: center;
+    width: 100%;
+    height: 140px;
+}
+
+
+.social__icon{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.icon__social{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.icon__social img{
+    margin: 0 15px;
+}
+
+/* FOOTER END */
