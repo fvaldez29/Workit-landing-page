@@ -205,7 +205,7 @@ h1{
 .graham__box-img{
     position: absolute;
     width: 477px;
-    left: 180px;
+    left: 300px;
     bottom: 350px;
     
 }
@@ -230,6 +230,7 @@ h1{
     height: 413px;
     background: var(--main-color);
     padding: 50px;
+    margin-left: 250px;
     z-index: 12;
 }
 
@@ -249,7 +250,7 @@ h1{
 
 .icon__pattern-three{
     position: absolute;
-    right: 33%;
+    right: 26%;
     z-index: 23;
     top: 56.4%;
 }

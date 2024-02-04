@@ -1,0 +1,101 @@
+.header{
+    height: 500px;
+    padding: 30px 20px;
+    background-image: none;
+}
+
+.icon__pattern-one,
+.icon__pattern-three{
+    display: none;
+}
+
+.title__container h1{
+    font-size: 50px;
+}
+
+.button{
+    width: 133px;
+    height: 55px;
+}
+
+.phone__image{
+    width: 320px;
+    height: 184px;
+    left: 70px;
+    top: 82%;
+}
+
+.container__main{
+    width: 100%;
+    height: 1080px;
+    padding: 0;
+    margin: 0;
+}
+
+.phone__container{
+    width: 100%;
+}
+
+.card__number-container{
+    margin-bottom: 20px;
+}
+
+.card__number-circle,
+.card__number-circle2,
+.card__number-circle3{
+    position: inherit;
+}
+
+.card__desc{
+    text-align: center;
+    padding: 0 37px;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.card:first-child{
+    margin-top: 100px;
+}
+
+.card__container{
+   
+    width: 97%;
+    padding:40px 0;
+    top: 29%;
+    right: 6px;
+}
+
+.card__title-hero{
+    font-size: 26px;
+    text-align: center;
+}
+
+.hero-intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 250px;
+}
+
+.graham__desc{
+    padding: 0 40px;
+    text-align: center;
+}
+
+.btn__green{
+
+    width: 172px;
+
+}
+
+
+
